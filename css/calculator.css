@@ -36,5 +36,42 @@ body {
     font-size: 40px;
     height: 100px;
     flex-basis: 24.5%;
+}
 
+.clac-button-double {
+    background-color: #d8d9db;
+    color: black;
+    border: none;
+    font-size: 40px;
+    height: 100px;
+    flex-basis: 49.7%;
+}
+
+.clac-button-thrice {
+    background-color: #d8d9db;
+    color: black;
+    border: none;
+    font-size: 40px;
+    height: 100px;
+    flex-basis: 74.8%;
+}
+
+.clac-button:hover {
+    background-color: #bbbcbe;
+}
+
+.clac-button-double:hover {
+    background-color:#bbbcbe;
+}
+
+.clac-button-thrice:hover {
+background-color:#bbbcbe;
+}
+
+.clac-button:last-child {
+    background-color: orange;
+}
+
+.clac-button:last-child:hover {
+    background-color: #dfb07e;
 }
